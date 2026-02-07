@@ -17,13 +17,16 @@
     },
     "git.openRepositoryInParentFolders": "never",
     "redhat.telemetry.enabled": false,
+
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.includeComments": false,
     "editor.unicodeHighlight.includeStrings": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
+
     "latex-workshop.hover.preview.mathjax.extensions": [
         "boldsymbol"
     ],
+
     "latex-workshop.latex.autoClean.run": "onFailed",
     "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
     // "latex-workshop.latex.outDir": "./tmp",
@@ -34,6 +37,7 @@
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.message.error.show": false,
     "latex-workshop.message.warning.show": false,
+
     "latex-workshop.latex.tools": [
         {
             "name": "xelatex",
@@ -156,20 +160,25 @@
     "update.mode": "manual",
     "chat.disableAIFeatures": true,
     "workbench.preferredLightColorTheme": "Default Dark Modern",
+    "python.analysis.typeCheckingMode": "standard",
     "settingsSync.ignoredSettings": [
-        "workbench.colorCustomizations"
+        "workbench.colorCustomizations",
+        "editor.fontWeight"
     ],
+    // linux specified
+    "editor.fontWeight": "600",
     "workbench.colorCustomizations": {
         "editor.background": "#181818",
-        "sideBar.background": "#161616",
-        "sideBar.border": "#161616",
-        "activityBar.background": "#141414",
-        "activityBar.border": "#141414",
-        "statusBar.background": "#141414",
-        "statusBar.border": "#141414",
-        "panel.background": "#181818",
-        "panel.border": "#181818",
-        "titleBar.activeBackground": "#141414",
-        "titleBar.inactiveBackground": "#141414"
+        "sideBar.background": "#101010",
+        "sideBar.border": "#101010",
+        "activityBar.background": "#101010",
+        "activityBar.border": "#101010",
+        "statusBar.background": "#101010",
+        "statusBar.border": "#101010",
+        "panel.background": "#101010",
+        "panel.border": "#101010",
+        "titleBar.activeBackground": "#101010",
+        "titleBar.inactiveBackground": "#101010",
+        "sideBarSectionHeader.background": "#101010"
     }
 }
